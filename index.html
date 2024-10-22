@@ -22,16 +22,40 @@
 
   gtag('config', 'AW-16604362368');
 </script>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: grey;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: black;
+        }
+    </style>
 	</head>
 	<body class="is-preload">
 
 		<!--  Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#contact">Contact Us</a></li>
-				</ul>
-			</nav>
+			<div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#contact">Contact Us</a>
+    </div>
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
